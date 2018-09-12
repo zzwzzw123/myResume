@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!--设置浏览器的布局视口，只在移动端浏览器起作用-->
+		<meta name="viewport" content="width=width-device,initial-scale=1,user-scalable=no" />
+		<title></title>
+		<!--引入bootstrap的核心css-->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<!--引入bootstrap里面的fontAwesome-->
+		<link rel="stylesheet" type="text/css" href="css/fontAwesome.css">
+		<style type="text/css">
+		
+			ul,li {
+				list-style-type: none;
+			}
+			
+			ul.nav-tabs{
+				/*width: 150px;*/
+	            margin-top: 20px;
+	            border-radius: 4px;
+	            border: 1px solid #ddd;
+	            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+	        }
+	        ul.nav-tabs li{
+	            margin: 0;
+	            border-top: 1px solid #ddd;
+	        }
+	        ul.nav-tabs li:first-child{
+	            border-top: none;
+	        }
+	        ul.nav-tabs li a{
+	            margin: 0;
+	            padding: 8px 16px;
+	            border-radius: 0;
+	        }
+	        ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+	            color: #fff;
+	            background: #0088cc;
+	            border: 1px solid #0088cc;
+	        }
+	        ul.nav-tabs li:first-child a{
+	            border-radius: 4px 4px 0 0;
+	        }
+	        ul.nav-tabs li:last-child a{
+	            border-radius: 0 0 4px 4px;
+	        }
+			
+			ul.nav-tabs.affix{
+	            top: 30px; /* 此处设置导航距离顶端空白边距 */
+	        }
+
+		</style>
+	</head>
+	<body  data-spy="scroll" data-target="#myScrollSpy">
+
+		<!--内容开始-->
+		<div class="container">
+			
+			<div class="jumbotron">
+	        	<h2>个人简历</h2>
+	        </div>
+			
+			<!--行开始-->
+			<div class="row">
+				<!--左侧导航栏开始-->
+				<div class="col-xs-4"  id="myScrollSpy">
+					<ul class="text-center nav nav-tabs nav-stacked" data-spy="affix" id="myNav">
+	                	<li class="active">
+	                    	<a href="#section1" class="fa fa-home">首页</a>
+	                    </li>
+	                    <li>
+	                    	<a href="#section2" class="fa fa-user">关于</a>
+	                    </li>
+	                    <li>
+	                    	<a href="#section3" class="fa fa-pencil">经历</a>
+	                    </li>
+	                    <li>
+	                    	<a href="#section4" class="fa fa-image">作品</a>
+	                    </li>
+	                    <li>
+	                    	<a href="#section5" class="fa fa-envelope">联系</a>
+	                    </li>
+	                </ul>
+				</div>
+				<!--左侧导航栏结束-->
+				<!--右侧内容区域开始-->
+				<div class="col-xs-8">
+					<!--右侧内容区开始-->
+					<div class="container">
+						<!--第一部分开始-->
+						<div id="section1">
+							<!--行开始-->
+							<div class="row">
+								<!--左侧3栅格开始-->
+								<div class="col-md-3">
+									<img src="img/author_image.png"/>
+								</div>
+								<!--左侧3栅格结束-->
+								<!--右侧9栅格开始-->
+								<div class="col-md-9">
+									<h1>张展维</h1>
+									<p>介绍自己</p>
+								</div>
+								<!--右侧9栅格结束-->
+							</div>
+							<!--行结束-->
+						</div>
+						<!--第一部分结束-->
+						<!--第二部分开始-->
+						<div id="section2">
+							<!--行开始-->
+							<div class="row">
+								<!--左侧3栅格开始-->
+								<div class="col-md-6">
+									<img src="img/author_image.png"/>
+								</div>
+								<!--左侧3栅格结束-->
+								<!--右侧9栅格开始-->
+								<div class="col-md-6">
+									<h1>张展维</h1>
+									<p>介绍自己</p>
+								</div>
+								<!--右侧9栅格结束-->
+							</div>
+							<!--行结束-->
+						</div>
+						<!--第二部分结束-->
+						<!--第二部分开始-->
+						<div id="section3">
+							<!--行开始-->
+							<div class="row">
+								<!--左侧3栅格开始-->
+								<div class="col-md-6">
+									<img src="img/author_image.png"/>
+								</div>
+								<!--左侧3栅格结束-->
+								<!--右侧9栅格开始-->
+								<div class="col-md-6">
+									<h1>张展维</h1>
+									<p>介绍自己</p>
+								</div>
+								<!--右侧9栅格结束-->
+							</div>
+							<!--行结束-->
+						</div>
+						<!--第二部分结束-->
+						<!--第二部分开始-->
+						<div id="section4">
+							<!--行开始-->
+							<div class="row">
+								<!--左侧3栅格开始-->
+								<div class="col-md-6">
+									<img src="img/author_image.png"/>
+								</div>
+								<!--左侧3栅格结束-->
+								<!--右侧9栅格开始-->
+								<div class="col-md-6">
+									<h1>张展维</h1>
+									<p>介绍自己</p>
+								</div>
+								<!--右侧9栅格结束-->
+							</div>
+							<!--行结束-->
+						</div>
+						<!--第二部分结束-->
+						<!--第二部分开始-->
+						<div id="section5">
+							<!--行开始-->
+							<div class="row">
+								<!--左侧3栅格开始-->
+								<div class="col-md-6">
+									<img src="img/author_image.png"/>
+								</div>
+								<!--左侧3栅格结束-->
+								<!--右侧9栅格开始-->
+								<div class="col-md-6">
+									<h1>张展维</h1>
+									<p>介绍自己</p>
+								</div>
+								<!--右侧9栅格结束-->
+							</div>
+							<!--行结束-->
+						</div>
+						<!--第二部分结束-->
+					</div>
+					
+				</div>
+				<!--右侧内容区域结束-->
+			</div>
+			<!--行结束-->
+		</div>
+		<!--内容栏结束-->
+		
+		<!--引入jquery-->
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<!--引入bootstrap的js功能-->
+		<script src="js/bootstrap.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(e) {
+		       
+		        
+				//动态增加附加导航功能
+				$('#myNav').affix(
+					{
+						offset:{top:function(){
+							return $('.jumbotron').outerHeight(true); //动态返回元素的高度	
+						}}
+					}
+				);
+				
+		    });
+		</script>
+	</body>
+</html>
